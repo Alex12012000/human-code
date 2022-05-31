@@ -1,0 +1,57 @@
+IL REGALO PERFETTO PER SILVIA
+
+Domani è il compleanno di Silvia e non le ho ancora comprato nulla! Mi piacerebbe sorprenderla,so che le piaceva tanto quella lampada da tavolo così particolare, 
+però la consegna non è Prime e non arriverebbe mai in tempo! Potrei optare per una bella stilografica ma sicuramente sforo il budget,
+ forse è meglio optare per un buon libro: un classico ma so che con lei vado sul sicuro!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1.Apro Amazon 
+	-apro browser
+	-apro Amazon
+	-eseguo login
+	-vado sul cerca
+
+2.Cerco lampada da tavolo
+	SE è PRIME e BUDGET 
+	-inserire nel carrello (VADO A SEZIONE ACQUISTA)
+	-Acquista 
+	ALTRIMENTI
+	-Cerco stilografica
+
+3.Cerco Stilografica
+	SE è PRIME e BUDGET 
+	-inserire nel carrello (VADO A SEZIONE ACQUISTA)
+	-Acquista 
+	ALTRIMENTI
+	-Cerco libro
+	
+4.Cerco Libro 
+	SE è PRIME e BUDGET 
+	-inserire nel carrello (VADO A SEZIONE ACQUISTA)
+	-Acquista 
+
+5.Acquista
+	5a inserire dati di spedizione
+		- Nome 
+		- Cognome 
+		- Indirizzo
+		- CAP
+		
+	5b modalita di pagamento
+		-Numero Carta
+		- Scadenza
+		- CVV
+		SE DATI CORRETTI 
+		   -ultimare pagamento (Acquista adesso)
+		ALTRIMENTI
+		   - ricontrollare dati carta
+
+	
+6.  Acquista adesso
+	SE PAGAMENTO OK
+	- chiudi amazon
+	ALTRIMENTI	
+	- ritornta al punto 5
+
+ Print ("auguri silvia!!!!")
